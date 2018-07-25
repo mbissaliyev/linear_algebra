@@ -61,3 +61,5 @@ b = np.array([1,2])
 print(b.shape)
 c = A + b
 print(c)
+
+
