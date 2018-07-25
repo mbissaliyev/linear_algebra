@@ -19,3 +19,4 @@ print(l2)
 # Vector MAX-NORM = max(A[0],A[1] A[2])
 maxnorm = np.linalg.norm(a, np.inf)
 print(maxnorm)
+
