@@ -35,3 +35,18 @@ b = 2
 print("Scalar b:", b)
 c = A + b
 print("Array C:", c)
+
+# broadcast 1D array to 2D array
+
+# 2D array
+A = np.array([[1, 2, 3],
+              [4, 5, 6],
+              [7, 8, 9]])
+print("A:", A)
+
+b = np.array([1, 2, 3])
+print("b:", b)
+
+C = A + b
+print("C:", C)
+
