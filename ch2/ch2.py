@@ -17,3 +17,4 @@ data = pd.read_csv("data.csv")
 data = np.array(data)
 print(data)
 
+
