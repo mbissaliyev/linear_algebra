@@ -40,7 +40,7 @@ print(a)
 b = np.array([3, 4, 5])
 print(b)
 
-# multipling two vectors
+# multiplying two vectors
 c = a.dot(b)
 
 # c = a1*b1 + a2*b2 + a3*b3
