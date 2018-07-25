@@ -1,4 +1,4 @@
-# Vector Norms - vector lengs and magnitutdes
+# Vector Norms - vector length and magnitudes
 
 # 1 Vector Norms
 import numpy as np
