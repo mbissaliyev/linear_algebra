@@ -1,2 +1,2 @@
 # Linear algebra
-Basic linear algebra test
+Basic linear algebra
