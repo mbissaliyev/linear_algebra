@@ -48,3 +48,13 @@ c = a.dot(b)
 
 
 print(c)
+
+
+# vector scalar multiplication
+a = np.array([1,2,3])
+print(a)
+
+# define scalar
+s = 0.5
+c = s * a
+print(c)
