@@ -50,3 +50,14 @@ print("b:", b)
 C = A + b
 print("C:", C)
 
+
+# broadcasting error
+A = np.array([[1,2,3],
+              [4,5,6]])
+print("A:", A.shape)
+
+# 1D array
+b = np.array([1,2])
+print(b.shape)
+c = A + b
+print(c)
