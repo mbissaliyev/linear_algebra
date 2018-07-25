@@ -52,3 +52,4 @@ A = np.array([[1, 2],
               [3, 4]])
 vr1 = np.linalg.matrix_rank(A)
 print(vr1)
+#
