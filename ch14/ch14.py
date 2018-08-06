@@ -4,7 +4,6 @@ import numpy as np
 from scipy.linalg import lu
 from scipy.linalg import qr
 
-
 A = np.array([
     [1, 2, 3],
     [4, 5, 6],
@@ -37,6 +36,24 @@ Q, R = qr(A)
 print(Q)
 print(R)
 
-#reconstruct
+# reconstruct
 B = Q.dot(R)
+print(B)
+
+from numpy.linalg import cholesky
+
+A = np.array([
+    [2, 1, 1],
+    [1, 2, 1],
+    [1, 1, 2],
+
+])
+
+print(A)
+
+L = cholesky(A)
+print(L)
+
+#reconstruct
+B = L.dot(L.T)
 print(B)
