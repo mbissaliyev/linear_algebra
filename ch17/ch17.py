@@ -69,3 +69,4 @@ print(X)
 # calculate covariance matrix
 Sigma = cov(X.T)
 print(Sigma)
+
