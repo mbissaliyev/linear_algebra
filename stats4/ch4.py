@@ -14,7 +14,8 @@ y_axis = norm.pdf(X_axis,0,1)
 # test dataset
 
 np.random.seed(1)
-data = 5 * np.random.rand(10000) + 50
+data = 5 * np.random.randn(10000) + 50
+print(data)
 
-pyplot.hist(data, bins=100)
+pyplot.hist(data,bins=100)
 pyplot.show()
